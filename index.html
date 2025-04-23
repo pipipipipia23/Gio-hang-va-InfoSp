@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collins - Get Ready For IELTS - Writing | BookHaven</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Critical inline styles for immediate rendering -->
+    <style>
+        .main-image img {
+            transition: opacity 0.3s, transform 0.3s;
+        }
+        .purchase-options .btn {
+            transition: all 0.2s;
+        }
+        .sticky-purchase-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: white;
+            padding: 10px 15px;
+            box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+            z-index: 999;
+            transform: translateY(100%);
+            transition: transform 0.3s;
+        }
+        .sticky-purchase-bar.show {
+            transform: translateY(0);
+        }
+        /* Fix for immediate button layout issues */
+        .d-grid.gap-2.d-md-flex {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .d-grid.gap-2.d-md-flex .btn {
+            flex: 1 0 auto;
+            min-width: 160px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Top Announcement Bar -->
+    <div class="announcement-bar">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center py-2">
+                <div class="text-muted small d-none d-md-block">Giao hàng miễn phí đơn từ 300k</div>
+                <div class="d-flex gap-3">
+                    <a href="#" class="text-decoration-none text-dark small">Trợ giúp</a>
+                    <a href="#" class="text-decoration-none text-dark small">Theo dõi đơn hàng</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Main Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <span class="brand-name">BookHaven</span>
+            </a>
+            
+            <div class="d-flex order-lg-last align-items-center">
+                <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="nav-buttons d-flex">
+                    <a href="#" class="nav-icon ms-2" title="Tài khoản">
+                        <i class="fas fa-user"></i>
+                    </a>
+                    <a href="#" class="nav-icon ms-2" title="Yêu thích">
+                        <i class="fas fa-heart"></i>
+                    </a>
+                    <a href="#" class="nav-icon ms-2 position-relative" id="cartButton">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-badge" id="cartCount">0</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="search-form mx-auto mt-3 mt-lg-0">
+                    <div class="input-group">
+                        <input class="form-control" type="search" placeholder="Tìm sách, tác giả, thể loại...">
+                        <button class="btn btn-primary" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </form>
+                
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Danh mục</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sách mới</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Bán chạy</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Breadcrumbs -->
+    <div class="container mt-3">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb small">
+                <li class="breadcrumb-item"><a href="#" class="text-decoration-none">Trang chủ</a></li>
+                <li class="breadcrumb-item"><a href="#" class="text-decoration-none">Sách học ngoại ngữ</a></li>
+                <li class="breadcrumb-item"><a href="#" class="text-decoration-none">Tiếng Anh</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Collins - Get Ready For IELTS - Writing</li>
+            </ol>
+        </nav>
+    </div>
+    
+    <!-- Product Section -->
+    <section class="product-detail">
+        <div class="container">
+            <div class="card border-0 shadow-sm">
+                <div class="card-body p-lg-4">
+                    <div class="row">
+                        <!-- Product Images -->
+                        <div class="col-lg-5 mb-4 mb-lg-0">
+                            <div class="product-gallery">
+                                <div class="main-image mb-3">
+                                    <img src="https://salt.tikicdn.com/cache/750x750/ts/product/92/d2/86/9daf6a0c740bb07c728cf9987b1cca18.jpg" class="img-fluid" alt="Collins - Get Ready For IELTS - Writing">
+                                </div>
+                                <div class="d-flex gap-2">
+                                    <div class="thumbnail active" data-image="https://salt.tikicdn.com/cache/750x750/ts/product/92/d2/86/9daf6a0c740bb07c728cf9987b1cca18.jpg">
+                                        <img src="https://salt.tikicdn.com/cache/100x100/ts/product/92/d2/86/9daf6a0c740bb07c728cf9987b1cca18.jpg" class="img-fluid" alt="Thumbnail 1">
+                                    </div>
+                                    <div class="thumbnail" data-image="https://salt.tikicdn.com/cache/750x750/media/catalog/producttmp/79/56/60/64d4751d2becbbc35ba5359fee0b4a6e.jpg">
+                                        <img src="https://salt.tikicdn.com/cache/100x100/media/catalog/producttmp/79/56/60/64d4751d2becbbc35ba5359fee0b4a6e.jpg" class="img-fluid" alt="Thumbnail 2">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Product Info -->
+                        <div class="col-lg-7">
+                            <div class="product-info">
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="badge bg-primary me-2">Mới</span>
+                                    <span class="badge bg-success">Chính hãng</span>
+                                </div>
+                                
+                                <h1 class="product-title">Collins - Get Ready For IELTS - Writing</h1>
+                                
+                                <div class="author mb-2">
+                                    <span class="text-muted">Tác giả:</span> 
+                                    <a href="#" class="text-decoration-none">Fiona Aish, Jo Tomlinson</a>
+                                </div>
+                                
+                                <div class="mb-3 d-flex align-items-center">
+                                    <div class="rating">
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star text-warning"></i>
+                                        <i class="fas fa-star-half-alt text-warning"></i>
+                                        <span class="ms-1">4.8</span>
+                                    </div>
+                                    <span class="mx-2 text-muted">|</span>
+                                    <span class="text-muted small">1.1k+ đánh giá</span>
+                                    <span class="mx-2 text-muted">|</span>
+                                    <span class="text-muted small">Đã bán 36 cuốn</span>
+                                </div>
+                                
+                                <div class="price-section mb-4">
+                                    <div class="d-flex align-items-center">
+                                        <h2 class="current-price me-2 mb-0">115.600₫</h2>
+                                        <div class="original-price text-muted text-decoration-line-through">136.000₫</div>
+                                        <div class="discount ms-2 px-2 py-1">-15%</div>
+                                    </div>
+                                    <div class="mt-2 text-success">
+                                        <i class="fas fa-check-circle me-1"></i>
+                                        <span>Còn hàng</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="product-description mb-4">
+                                    <h5>Mô tả sản phẩm</h5>
+                                    <p>Collins - Get Ready For IELTS - Writing là tài liệu luyện thi IELTS Writing hiệu quả, được thiết kế cho việc tự học và có hướng dẫn thông qua các bài tập đầy đủ. Sách cung cấp ngữ pháp và từ vựng quan trọng cho IELTS Writing, giúp bạn đạt điểm cao trong kỳ thi.</p>
+                                </div>
+                                
+                                <div class="shipping-info mb-4 p-3 bg-light rounded">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <i class="fas fa-truck text-primary me-2"></i>
+                                        <span>Miễn phí vận chuyển cho đơn hàng từ 300.000₫</span>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <i class="fas fa-shield-alt text-primary me-2"></i>
+                                        <span>Bảo hành chính hãng 12 tháng</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="purchase-options">
+                                    <div class="quantity-selector d-flex align-items-center mb-3">
+                                        <label for="quantity" class="form-label me-3 mb-0 fw-bold">Số lượng:</label>
+                                        <div class="input-group" style="width: 140px;">
+                                            <button class="btn btn-outline-secondary decrease" type="button">−</button>
+                                            <input type="text" class="form-control text-center qty-input" value="1" id="quantity">
+                                            <button class="btn btn-outline-secondary increase" type="button">+</button>
+                                        </div>
+                                        <span class="ms-3 text-success small">Còn 42 sản phẩm</span>
+                                    </div>
+                                    
+                                    <div class="d-flex flex-wrap gap-2">
+                                        <button class="btn btn-primary btn-lg flex-grow-1" id="addToCartBtn" style="min-width: 160px;">
+                                            <i class="fas fa-cart-plus me-2"></i> Thêm vào giỏ
+                                        </button>
+                                        <button class="btn btn-danger btn-lg flex-grow-1" style="min-width: 160px;">
+                                            <i class="fas fa-bolt me-2"></i> Mua ngay
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Product Details Tabs -->
+    <section class="product-details mt-4">
+        <div class="container">
+            <div class="card border-0 shadow-sm">
+                <div class="card-body p-lg-4">
+                    <ul class="nav nav-tabs" id="productTabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab">Chi tiết sản phẩm</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="specifications-tab" data-bs-toggle="tab" data-bs-target="#specifications" type="button" role="tab">Thông số</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="reviews-tab" data-bs-toggle="tab" data-bs-target="#reviews" type="button" role="tab">Đánh giá (1.1k+)</button>
+                        </li>
+                    </ul>
+                    
+                    <div class="tab-content p-3" id="productTabsContent">
+                        <!-- Description Tab -->
+                        <div class="tab-pane fade show active" id="description" role="tabpanel">
+                            <h5>Đặc điểm nổi bật</h5>
+                            <ul class="feature-list">
+                                <li>Thiết kế cho việc tự học, hướng dẫn thông qua bài tập đầy đủ</li>
+                                <li>Được phát triển bởi giáo viên IELTS giàu kinh nghiệm</li>
+                                <li>Cung cấp ngữ pháp và từ vựng quan trọng cho IELTS Writing</li>
+                                <li>Bố cục rõ ràng, dễ hiểu với các phần luyện tập chi tiết</li>
+                                <li>Bao gồm các mẫu câu trả lời và bài mẫu điểm cao</li>
+                                <li>Phù hợp cho người học chuẩn bị thi IELTS từ 5.0 đến 6.5</li>
+                            </ul>
+                        </div>
+                        
+                        <!-- Specifications Tab -->
+                        <div class="tab-pane fade" id="specifications" role="tabpanel">
+                            <div class="table-responsive">
+                                <table class="table table-striped">
+                                    <tbody>
+                                        <tr>
+                                            <td style="width: 30%">Tác giả</td>
+                                            <td>Fiona Aish, Jo Tomlinson</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Nhà xuất bản</td>
+                                            <td>Collins</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Năm xuất bản</td>
+                                            <td>2019</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Ngôn ngữ</td>
+                                            <td>Tiếng Anh</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Số trang</td>
+                                            <td>144</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Kích thước</td>
+                                            <td>19 x 24.6 cm</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Trọng lượng</td>
+                                            <td>350g</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        
+                        <!-- Reviews Tab -->
+                        <div class="tab-pane fade" id="reviews" role="tabpanel">
+                            <div class="review-summary mb-4">
+                                <h5>Đánh giá từ người mua</h5>
+                                <div class="d-flex align-items-center">
+                                    <div class="overall-rating me-3">
+                                        <span class="display-4">4.8</span>
+                                        <div class="stars">
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star-half-alt text-warning"></i>
+                                        </div>
+                                        <div class="text-muted small">1.1k+ đánh giá</div>
+                                    </div>
+                                    <div class="rating-bars flex-grow-1">
+                                        <div class="rating-bar d-flex align-items-center mb-1">
+                                            <div class="me-2">5 <i class="fas fa-star text-warning small"></i></div>
+                                            <div class="progress flex-grow-1" style="height: 10px;">
+                                                <div class="progress-bar bg-success" style="width: 85%"></div>
+                                            </div>
+                                            <div class="ms-2 text-muted small">85%</div>
+                                        </div>
+                                        <div class="rating-bar d-flex align-items-center mb-1">
+                                            <div class="me-2">4 <i class="fas fa-star text-warning small"></i></div>
+                                            <div class="progress flex-grow-1" style="height: 10px;">
+                                                <div class="progress-bar bg-success" style="width: 10%"></div>
+                                            </div>
+                                            <div class="ms-2 text-muted small">10%</</div>
+                                        </div>
+                                        <div class="rating-bar d-flex align-items-center mb-1">
+                                            <div class="me-2">3 <i class="fas fa-star text-warning small"></i></div>
+                                            <div class="progress flex-grow-1" style="height: 10px;">
+                                                <div class="progress-bar bg-warning" style="width: 3%"></div>
+                                            </div>
+                                            <div class="ms-2 text-muted small">3%</</div>
+                                        </div>
+                                        <div class="rating-bar d-flex align-items-center mb-1">
+                                            <div class="me-2">2 <i class="fas fa-star text-warning small"></i></div>
+                                            <div class="progress flex-grow-1" style="height: 10px;">
+                                                <div class="progress-bar bg-danger" style="width: 1%"></div>
+                                            </div>
+                                            <div class="ms-2 text-muted small">1%</</div>
+                                        </div>
+                                        <div class="rating-bar d-flex align-items-center">
+                                            <div class="me-2">1 <i class="fas fa-star text-warning small"></i></div>
+                                            <div class="progress flex-grow-1" style="height: 10px;">
+                                                <div class="progress-bar bg-danger" style="width: 1%"></div>
+                                            </div>
+                                            <div class="ms-2 text-muted small">1%</</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Related Books Section -->
+    <section class="related-products mt-4 mb-5">
+        <div class="container">
+            <h4 class="mb-3">Sách liên quan</h4>
+            <div class="row row-cols-2 row-cols-md-4 row-cols-lg-5 g-3">
+                <!-- Related Book 1 -->
+                <div class="col">
+                    <div class="card h-100 product-card">
+                        <img src="https://salt.tikicdn.com/cache/280x280/ts/product/24/c2/72/c9800a163269cb38e0dda4f1d706b491.jpg" class="card-img-top" alt="Related Book">
+                        <div class="card-body">
+                            <h6 class="card-title mb-1">Collins - Get Ready For IELTS - Listening</h6>
+                            <div class="rating small mb-1">
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="far fa-star text-warning"></i>
+                                <span class="text-muted">(342)</span>
+                            </div>
+                            <div class="price">
+                                <span class="current-price">118.300₫</span>
+                                <span class="original-price text-muted text-decoration-line-through small">139.000₫</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Related Book 2 -->
+                <div class="col">
+                    <div class="card h-100 product-card">
+                        <img src="https://salt.tikicdn.com/cache/280x280/ts/product/8a/03/ac/d86831b2a5a7335359fce8d1c1a4bb40.jpg" class="card-img-top" alt="Related Book">
+                        <div class="card-body">
+                            <h6 class="card-title mb-1">Collins - Get Ready For IELTS - Reading</h6>
+                            <div class="rating small mb-1">
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star-half-alt text-warning"></i>
+                                <span class="text-muted">(256)</span>
+                            </div>
+                            <div class="price">
+                                <span class="current-price">118.300₫</span>
+                                <span class="original-price text-muted text-decoration-line-through small">139.000₫</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Related Book 3 -->
+                <div class="col">
+                    <div class="card h-100 product-card">
+                        <img src="https://salt.tikicdn.com/cache/280x280/ts/product/75/0a/68/f5e3ae9accd00be9e0b3fa25c1cebfd8.jpg" class="card-img-top" alt="Related Book">
+                        <div class="card-body">
+                            <h6 class="card-title mb-1">Collins - Get Ready For IELTS - Speaking</h6>
+                            <div class="rating small mb-1">
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="far fa-star text-warning"></i>
+                                <span class="text-muted">(178)</span>
+                            </div>
+                            <div class="price">
+                                <span class="current-price">118.300₫</span>
+                                <span class="original-price text-muted text-decoration-line-through small">139.000₫</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Related Book 4 -->
+                <div class="col">
+                    <div class="card h-100 product-card">
+                        <img src="https://salt.tikicdn.com/cache/280x280/ts/product/5e/18/24/2a6154ba08df6e95f3e3318a13264c85.jpg" class="card-img-top" alt="Related Book">
+                        <div class="card-body">
+                            <h6 class="card-title mb-1">IELTS Writing Task 2: Band 9 Sample Essays</h6>
+                            <div class="rating small mb-1">
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <span class="text-muted">(421)</span>
+                            </div>
+                            <div class="price">
+                                <span class="current-price">135.000₫</span>
+                                <span class="original-price text-muted text-decoration-line-through small">150.000₫</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Related Book 5 -->
+                <div class="col">
+                    <div class="card h-100 product-card">
+                        <img src="https://salt.tikicdn.com/cache/280x280/ts/product/c6/51/32/cf85bbeef3c5e0a6133a797903c2a7b9.jpg" class="card-img-top" alt="Related Book">
+                        <div class="card-body">
+                            <h6 class="card-title mb-1">Cambridge IELTS 17 Academic</h6>
+                            <div class="rating small mb-1">
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star-half-alt text-warning"></i>
+                                <span class="text-muted">(589)</span>
+                            </div>
+                            <div class="price">
+                                <span class="current-price">175.000₫</span>
+                                <span class="original-price text-muted text-decoration-line-through small">195.000₫</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Redesigned Shopping Cart Modal -->
+    <div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0">
+                <!-- Modal Header -->
+                <div class="modal-header border-bottom-0 pb-0">
+                    <h5 class="modal-title fw-normal" id="cartModalLabel">
+                        <i class="fas fa-shopping-cart me-2 text-primary"></i>Giỏ hàng
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                
+                <!-- Modal Body -->
+                <div class="modal-body pt-2 px-3">
+                    <div id="cartItems" class="py-2">
+                        <!-- Cart items will be displayed here via JavaScript -->
+                    </div>
+                </div>
+                
+                <!-- Modal Footer -->
+                <div class="modal-footer bg-light border-top-0">
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                        <div>
+                            <span class="fw-normal">Tổng tiền:</span>
+                            <span class="ms-2 fs-5 fw-bold text-primary" id="cartTotal">0₫</span>
+                        </div>
+                        <div class="d-flex gap-2 parentbtn">
+                            <button type="button" class="btn btn-sm btn-outline-secondary px-3 py-1" style="font-size: 13px;" data-bs-dismiss="modal">
+                                Tiếp tục
+                            </button>
+                            <button type="button" class="btn btn-sm btn-primary px-3 py-1" style="font-size: 13px;" id="checkoutBtn">
+                                Thanh toán
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-5 pb-4 mt-5">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="mb-3 fw-bold">BookHaven</h5>
+                    <p class="small">Cửa hàng sách trực tuyến hàng đầu Việt Nam, cung cấp hàng triệu đầu sách chất lượng với dịch vụ giao hàng nhanh chóng.</p>
+                    <div class="social-icons mt-3">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="mb-3 fw-bold">Hỗ trợ khách hàng</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white-50 text-decoration-none small">Trung tâm trợ giúp</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none small">Hướng dẫn mua hàng</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none small">Phương thức thanh toán</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none small">Chính sách vận chuyển</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none small">Chính sách đổi trả</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="mb-3 fw-bold">Về BookHaven</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white-50 text-decoration-none small">Giới thiệu</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none small">Tuyển dụng</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none small">Điều khoản sử dụng</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none small">Chính sách bảo mật</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none small">Liên hệ</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="mb-3 fw-bold">Liên hệ</h5>
+                    <ul class="list-unstyled small">
+                        <li class="mb-2 text-white-50"><i class="fas fa-map-marker-alt me-2"></i> 285 Đội Cấn, Ba Đình, Hà Nội</li>
+                        <li class="mb-2 text-white-50"><i class="fas fa-phone-alt me-2"></i> (024) 7300 6869</li>
+                        <li class="mb-2 text-white-50"><i class="fas fa-envelope me-2"></i> support@bookhaven.vn</li>
+                    </ul>
+                    <div class="mt-3">
+                        <img src="https://cdn.pixabay.com/photo/2018/05/08/21/29/paypal-3384015_1280.png" alt="Payment Methods" class="img-fluid" style="max-height: 30px;">
+                    </div>
+                </div>
+            </div>
+            
+            <hr class="my-4 border-secondary">
+            
+            <div class="row">
+                <div class="col-md-6 small text-white-50">
+                    <p>&copy; 2023 BookHaven. Tất cả quyền được bảo lưu.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Cart functionality script -->
+    <script src="cart.js"></script>
+    <!-- Product enhancement script -->
+    <script src="product-fix.js"></script>
+    <!-- Cart modal interaction fix -->
+    <script src="cart-modal-fix.js"></script>
+</body>
+</html>
